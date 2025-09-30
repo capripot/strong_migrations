@@ -13,6 +13,10 @@ jobs:
             gemfile: Gemfile
           - ruby: 3.3
             gemfile: gemfiles/activerecord72.gemfile
+          - ruby: 3.3
+            gemfile: gemfiles/activerecord52.gemfile
+          - ruby: 3.3
+            gemfile: gemfiles/activerecord42.gemfile
           - ruby: 3.2
             gemfile: gemfiles/activerecord71.gemfile
     env:
